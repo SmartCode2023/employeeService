@@ -1,0 +1,474 @@
+{
+	"info": {
+		"_postman_id": "af2f3a25-c3ff-4bc0-bd22-f50281480eac",
+		"name": "MS_Employee",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "OperariosDeBodega",
+			"item": [
+				{
+					"name": "createOperariobodega",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 0,\r\n  \"nombre\": \"Jose Javier\",\r\n  \"bodebasId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9089/employee/operariobodega",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"operariobodega"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createOperariobodega2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 0,\r\n  \"nombre\": \"Dana Paola\",\r\n  \"bodebasId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9089/employee/operariobodega",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"operariobodega"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllOperariosDeBodega",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9089/employee/operariobodega",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"operariobodega"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getOperarioDeBodegaById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9089/employee/operariobodega/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"operariobodega",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateOperariosDeBodega",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"nombre\": \"Mario Paolo\",\r\n  \"bodebasId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9089/employee/operariobodega/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"operariobodega",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteOperariosDeBodega",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9089/employee/operariobodega/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"operariobodega",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TipoDeConductores",
+			"item": [
+				{
+					"name": "createTipoDeConductores",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 0,\r\n  \"nombre\": \"Contrato fijo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9089/employee/tipodeconductor",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"tipodeconductor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createTipoDeConductores2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"nombre\": \"Particular\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9089/employee/tipodeconductor",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"tipodeconductor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllTipoDeConductores",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9089/employee/tipodeconductor",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"tipodeconductor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getTipoDeConductoresById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9089/employee/tipodeconductor/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"tipodeconductor",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateTipoDeConductores",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"nombre\": \"Temporal\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9089/employee/tipodeconductor/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"tipodeconductor",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteTipoDeConductores",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9089/employee/operariobodega/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"operariobodega",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Conductores",
+			"item": [
+				{
+					"name": "createConductores",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"nombre\": \"Alanis\",\r\n  \"documentoDeIdentificacion\": 12313123,\r\n  \"apellido\": \"Forero\",\r\n  \"tipoDeConductorId\": 1,\r\n  \"tipoDocumentoIdentificacionId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9089/employee/conductor",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"conductor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createConductores2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"nombre\": \"Juan\",\r\n  \"documentoDeIdentificacion\": 4567333,\r\n  \"apellido\": \"Sanchez\",\r\n  \"tipoDeConductorId\": 1,\r\n  \"tipoDocumentoIdentificacionId\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9089/employee/conductor",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"conductor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAlConductores",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9089/employee/conductor",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"conductor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getConductoresById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9089/employee/conductor/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"conductor",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateConductores",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"nombre\": \"Jorge\",\r\n  \"documentoDeIdentificacion\": 555773,\r\n  \"apellido\": \"Romero\",\r\n  \"tipoDeConductorId\": 1,\r\n  \"tipoDocumentoIdentificacionId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9089/employee/conductor/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"conductor",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteConductores",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9089/employee/conductor/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9089",
+							"path": [
+								"employee",
+								"conductor",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
