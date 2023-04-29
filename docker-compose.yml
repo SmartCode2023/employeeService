@@ -25,5 +25,5 @@ services:
       - MYSQL_ROOT_PASSWORD=maria123
       - MYSQL_DATABASE=mysql
     ports:
-      - 3306:3306
+      - 3309:3309
 
